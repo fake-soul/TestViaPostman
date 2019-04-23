@@ -1,0 +1,109 @@
+{
+  "info": {
+    "_postman_id": "bd1ebe4a-2ceb-45e1-b12f-10c44c268a25",
+    "name": "ewbjxvi",
+    "description": "bharat raj\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "F1",
+      "item": [
+        {
+          "name": "fb",
+          "_postman_id": "bc59bb38-575e-4338-a2d7-bb3d79ef47c5",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "fb.com"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "afa77cf2-69cb-4ac4-9b5e-3d953acde71f",
+      "description": "new folders"
+    },
+    {
+      "name": "https://www.google.com/search?q=batman",
+      "_postman_id": "c5a8d089-35e9-4074-b1a1-6ed3f30fdc7e",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.google.com/search?q=batman",
+          "protocol": "https",
+          "host": [
+            "www",
+            "google",
+            "com"
+          ],
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "batman"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Google",
+      "_postman_id": "f25a07e2-355d-431f-9f1f-390be4bbf05e",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "google.com"
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "1a35e578-83f6-41ac-b722-c397356bee8d",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "d6fa9875-daba-4572-83c9-cf3a12ea24c0",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "20cda95a-8ad0-4cfd-8b95-899d82df3803",
+      "key": "hahaha",
+      "value": "11111",
+      "type": "string"
+    },
+    {
+      "id": "30993bed-4a99-414f-bf00-4e00cc2bca0b",
+      "key": "fhihfi",
+      "value": "hfihid",
+      "type": "string"
+    }
+  ]
+}
